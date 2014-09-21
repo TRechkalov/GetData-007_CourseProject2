@@ -1,3 +1,26 @@
+This is a course project of Getting and Cleaning Data course.
+This repository has partial completed task.
+Implemented tasks:
+- Merges the training and the test sets to create one data set.
+- Uses descriptive activity names to name the activities in the data set
+- Appropriately labels the data set with descriptive variable names. 
+
+Not implemented tasks:
+- Extracts only the measurements on the mean and standard deviation for each measurement. 
+- From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+Sequence of steps:
+- Uploading and unpacking source data
+- Loading generic information: variable names and activity labels
+- Loading test data subject names and test data labels
+- Transforming numeric test data labels to character vector (task 3)
+- Loading test data body
+- Assigning appropriate variable names to test data body (task 4)
+- Making test data frame consisting of subject ids, labels and test data body
+- Repeating previous five steps for train data to get train data frame
+- Merge data frames to dataset using rbind (task 1)
+
+Original dataset readme
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
